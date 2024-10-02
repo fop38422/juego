@@ -1,0 +1,59 @@
+#contenedorPersonajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personaje{
+    height: 200px;
+    width: 200px;
+}
+
+#caballero {
+    background: url("../../assets/caballero.png");
+    background-size: cover;
+}
+
+#arquero {
+    background: url("../../assets/arquero.png");
+    background-size: cover;
+}
+
+#brujo {
+    background: url("../../assets/brujo.png");
+    background-size: cover;
+}
+
+#clerigo {
+    background: url("../../assets/clerigo.png");
+    background-size: cover;
+}
+
+#ladron {
+    background: url("../../assets/ladron.png");
+    background-size: cover;
+}
+
+#texto {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+#botones {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+button {
+    width: 75px;
+    height: 50px;
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(33, 92, 51);
+    border-radius: 10%;
+}

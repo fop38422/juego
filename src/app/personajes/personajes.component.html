@@ -1,0 +1,12 @@
+<div id="contenedorPersonajes">
+    <p id="texto">Elige a tu personaje:</p>
+    <div *ngIf="posicion==1" class="personaje" id="caballero"></div>
+    <div *ngIf="posicion==2" class="personaje" id="arquero"></div>
+    <div *ngIf="posicion==3" class="personaje" id="brujo"></div>
+    <div *ngIf="posicion==4" class="personaje" id="clerigo"></div>
+    <div *ngIf="posicion==5" class="personaje" id="ladron"></div>
+    <div id="botones">
+        <button (click)="anteriorP()"><</button>
+        <button (click)="siguienteP()">></button>
+    </div>
+</div>
