@@ -1,0 +1,10 @@
+#imagen {
+    background-image: url(../../assets/caballero.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+p {
+    color: white;
+}
