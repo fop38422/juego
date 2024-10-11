@@ -1,0 +1,43 @@
+#tarjeta {
+    width: 35%;
+    height: fit-content;
+    border-style: ridge;
+    border-color: rgb(22, 63, 34);
+    border-width: 5px;
+    background-color: rgb(43, 61, 49);
+    padding: 1%;
+}
+
+#imagen {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#clase {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+#nombre {
+    text-align: center;
+    font-family: copperplate, papyrus, fantasy;
+    font-size: x-large;
+}
+
+#descripcion {
+    font-family: copperplate, papyrus, fantasy;
+    font-size: larger;
+    text-justify: inter-word;
+}
+
+p {
+    color: white;
+}
