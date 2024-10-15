@@ -1,6 +1,11 @@
+#contenedorTarjeta {
+    display: flex;
+    justify-content: center;
+}
+
 #tarjeta {
-    width: 35%;
-    height: fit-content;
+    width: 60%;
+    height: 25%;
     border-style: ridge;
     border-color: rgb(22, 63, 34);
     border-width: 5px;

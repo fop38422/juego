@@ -1,12 +1,14 @@
-<div *ngFor="let personaje of personajes" id="tarjeta">
-    <div id="superior">
-        <img id="imagen" [src]="personaje.imagen" alt="Icono">
-        <div id="titulos">
-            <p id="clase">{{personaje.clase}}</p>
-            <p id="nombre">{{personaje.nombre}}</p>
+<div id="contenedorTarjeta">
+    <div id="tarjeta">
+        <div id="superior">
+            <img id="imagen" [src]="personaje.imagen" alt="Icono">
+            <div id="titulos">
+                <p id="clase">{{personaje.clase}}</p>
+                <p id="nombre">{{personaje.nombre}}</p>
+            </div>
         </div>
-    </div>
-    <div id="descripcion">
-        <p>{{personaje.descripcion}}</p>
+        <div id="descripcion">
+            <p>{{personaje.descripcion}}</p>
+        </div>
     </div>
 </div>
