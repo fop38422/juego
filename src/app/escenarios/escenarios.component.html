@@ -1,0 +1,12 @@
+<div id="contenedorEscenarios">
+    <p id="texto">ELIGE UN ESCENARIO:</p>
+    <div id="tarjetaEscenarios">
+        <img id="imagen" [src]="escenarios[posicion].imagen" alt="escenario">
+        <p id="nombre">{{escenarios[posicion].nombre}}</p>
+    </div>
+    <div id="botones">
+        <button (click)="anteriorE()"><</button>
+        <button (click)="siguienteE()">></button>
+    </div>
+    <button id="botonVolver" [routerLink]="['/personajes']">VOLVER</button>
+</div>

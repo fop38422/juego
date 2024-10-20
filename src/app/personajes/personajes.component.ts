@@ -8,7 +8,7 @@ import { Personaje } from '../models/personaje.model';
 })
 export class PersonajesComponent {
 
-  posicion:number = 1;
+  posicion:number = 0;
 
   personajes:Personaje[] = [];
 
@@ -19,18 +19,18 @@ export class PersonajesComponent {
   }
 
   siguienteP(){
-    if (this.posicion < 5){
+    if (this.posicion < 4){
       this.posicion++;
     }else{
-      this.posicion = 1;
+      this.posicion = 0;
     }
   }
 
   anteriorP(){
-    if (this.posicion > 1){
+    if (this.posicion > 0){
     this.posicion--;
     }else{
-      this.posicion = 5;
+      this.posicion = 4;
     }
   }
 }

@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
+import { EscenariosComponent } from './escenarios/escenarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonajesComponent,
-    TarjetaComponent
+    TarjetaComponent,
+    EscenariosComponent
   ],
   imports: [
     BrowserModule,
